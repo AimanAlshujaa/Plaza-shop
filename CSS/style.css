@@ -661,6 +661,10 @@ footer .copyright{
 #page-header.bolg-header{
   background-image: url(../image/banner/b19.jpg);
 }
+#page-header h2,
+#page-header p{
+  color: #fcfcfc;
+}
 #blog{
   padding: 150px 150px 0 150px;
 }
