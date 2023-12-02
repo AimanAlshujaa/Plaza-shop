@@ -404,7 +404,7 @@ button.white {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  background-image: url(../image/banner/b7.jpg);
+  background-image: url(../image/banner/SmartThings_Cooking.png);
   min-width:30%;
   height: 30vh;
   background-size: cover;
@@ -414,21 +414,21 @@ button.white {
 }
 
 #banner3 .banner-box2{
-  background-image: url(../image/banner/b4.jpg);
+  background-image: url(../image/banner/laundry.png);
 }
 
 #banner3 .banner-box3{
-  background-image: url(../image/banner/b18.jpg);
+  background-image: url(../image/banner/laundry1.png);
 }
 
 #banner3 h2{
-  color: #fff;
+  color: #5f5e5e;
   font-weight: 900;
   font-size: 25px;
 }
 
 #banner3 h3{
-  color: #eb716d;
+  color: #837474;
   font-weight: 800;
   font-size: 15px;
 }
@@ -753,7 +753,7 @@ width: 50%;
   content: "";
   width: 50px;
   height: 1px;
-  background-color: #000;
+  background-color: #000; 
   position: absolute;
   top: 4px;
   left: -60px;
@@ -774,10 +774,34 @@ width: 50%;
   z-index: -9;
 }
 
+/* صفحة عن الموقع */
+
+
+#page-header  {
+  background-image: url(../image/about/banner.png);
+}
+
+#about-head {
+  display: flex;
+  align-items: center;
+ }
+ 
+#about-head img {
+  width: 50%;
+  height: auto;
+}
+
+#about-head div {
+  padding-left: 40px;
+  direction: rtl;
+}
 
 
 
-/* start media query */
+#about-app {
+  text-align: center;
+}
+/* بداية الميديا كويري */
 
 @media (max-width:799px){
 
