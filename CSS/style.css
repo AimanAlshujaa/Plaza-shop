@@ -326,13 +326,13 @@ background-color: #fff2e5;
 }
 
 #banner button:hover{
-  background: #134053;
+  background: #088178;
   color:#fff;
 }
 
 #sm-banner{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -347,7 +347,7 @@ flex-wrap: wrap;
       height: 50vh;
       background-size: cover;
       background-position: center;
-      padding: 25px ;
+      padding: 30px ;
 }
 
 #sm-banner .banner-box2{
@@ -774,16 +774,144 @@ width: 50%;
   z-index: -9;
 }
 
+/* Contact Page */
+
+#contact-detaile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+}
+
+#contact-detaile .details{
+  width: 40%;
+}
+
+#contact-detaile .details span,
+#form-details form span{
+  font-size: 15px;
+}
+
+#contact-detaile .details h2,
+#form-details form h2{
+  font-size: 26px;
+  line-height: 35px;
+  padding: 20px 0;
+}
+
+#contact-detaile .details h3{
+  font-size: 16px;
+padding-bottom: 15px;
+}
+
+#contact-detaile .details li{
+  list-style: none;
+  display: flex;
+  padding: 10px 0;
+}
+
+#contact-detaile .details li i{
+font-size: 14px;
+padding-left: 22px;
+}
+
+#contact-detaile .details li p{
+font-size: 14px;
+margin: 0;
+
+}
+
+#contact-detaile .map{
+  width: 55%;
+  height: 400px;
+}
+
+#contact-detaile .map iframe{
+  width: 100%;
+  height: 100%;
+}
+
+#form-details{
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 80px;
+  border: 1px solid #e1e1e1;
+}
+
+#form-details form{
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  direction: rtl;
+}
+
+#form-details form input,
+#form-details form textarea{
+  width: 100%;
+  padding: 12px 15px;
+  outline: none;
+  margin-bottom: 20px;
+  border: 1px solid  #e1e1e1;
+}
+
+#form-details form button{
+  color: #fff;
+}
+
+#form-details .people div{
+  padding-bottom: 25px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: flex-start;
+}
+
+#form-details .people div img{
+  width: 65px ;
+  height: 65px;
+  object-fit: cover;
+  margin-left: 15px;
+}
+
+#form-details .people div p{
+  margin: 0;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+#form-details .people div p span{
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+}
+
 /* صفحة عن الموقع */
 
 
-#page-header.cart-header {
+#page-header  {
   background-image: url(../image/about/banner.png);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  padding: 14px;
+}
+#page-header-1 h2,
+#page-header-1 p{
+  color: #c2bbbb;
 }
 
 #about-head {
   display: flex;
   align-items: center;
+ 
+
  }
  
 #about-head img {
@@ -913,10 +1041,6 @@ width: 50%;
 #blog .blog-details {
   width: 100%;
 }
-
-
-}
-
   
   #banner {
     height: 35vh;
@@ -935,7 +1059,22 @@ width: 50%;
   #newsletter .form {
     width: 60%;
   }
+/* Contact Page */
+
+  #form-details {
+
+    padding: 40px;
+
+}
+
+#form-details form {
+  width: 45%;
+  direction: rtl;
+}
+
+
   
+}
 
 /* Cart page  */
 #cart table {
@@ -1129,6 +1268,49 @@ footer .copyright {
   width: 100%;
 
 }
+
+/* Contact Page */
+
+#contact-detaile {
+  /* display: flex; */
+  flex-direction: column;
+  /* justify-content:center;
+  align-items: center; */
+  direction: rtl;
+}
+
+#contact-detaile .details {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+#contact-detaile .map {
+  width: 100%;
+  height: 400px;
+}
+
+#form-details {
+  direction: rtl;
+  /* display: flex;
+  justify-content: space-between;*/
+  /* flex-direction: column;
+  border: 1px solid #e1e1e1;*/
+  margin: 10px;
+  padding:30px 10px; 
+  flex-wrap: wrap;
+}
+
+#form-details form {
+  width: 100%;
+  padding-bottom: 30px;
+  direction: rtl;
+}
+
+/* #form-details form {
+  width: 100%;
+  direction: rtl;
+  padding-bottom: 30px;
+} */
 
 }
 
