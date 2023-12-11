@@ -1150,10 +1150,11 @@ margin: 0;
   #subtotal button {
     background-color: #088178;
     color: #fff;
-    padding: 12px 20px;
+    padding: 10px 20px;
   }
   #subtotal {
     width: 50%;
+    height: 50%;
     margin-bottom: 30px;
     border: 1px solid #e2e9e1;
     padding: 30px;
